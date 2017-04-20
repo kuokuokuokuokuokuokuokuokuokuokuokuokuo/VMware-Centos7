@@ -1,0 +1,4 @@
+# 这里是记录常用的linux 命令 .
+我用的linux是Centos 所以记一下Centos的常用命令
+tip 1 : systemctl 是系统服务管理器命令，它实际上将 service 和 chkconfig 这两个命令组合到一起 .
+tip 2 : 关闭防火墙命令 : systemctl stop firewalld.service
