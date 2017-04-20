@@ -2,3 +2,6 @@
 我用的linux是Centos 所以记一下Centos的常用命令
 tip 1 : systemctl 是系统服务管理器命令，它实际上将 service 和 chkconfig 这两个命令组合到一起 .
 tip 2 : 关闭防火墙命令 : systemctl stop firewalld.service
+tip 3 : 安装 postgresql 去官网! 重启postgresql : systemctl restart postgresql-9.5.service
+修改 postgresql 可外网访问 /var/lib/pgsql/9.5/data/postgresql.conf   修改#listen_addresses = 'localhost'  为  listen_addresses='*'
+修改 postgresql 可访问的ip pg_hba.conf ip4 
